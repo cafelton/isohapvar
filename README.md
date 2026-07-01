@@ -1,4 +1,4 @@
-# isohapvar
+# isohapvar (derived from FLAIR isoalleles)
 Take a haplotyped vcf and isoform bed and create a variant-aware isoform fasta
 
 Longshot and longcallR variant calling from long-read RNA-seq have been tested, but this should work with variants called from WGS as well.
