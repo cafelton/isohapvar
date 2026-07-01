@@ -1,6 +1,8 @@
 # isohapvar (derived from FLAIR isoalleles)
 Take a haplotyped vcf and isoform bed and create a variant-aware isoform fasta
 
+Made to deal with SNVs, insertions and deletions. May break if your input vcf contains structural variants.
+
 Longshot, longcallR, and Clair3 variant calling from long-read RNA-seq have been tested, but this should work with variants called from WGS as well.
 
 This has been tested using FLAIR isoforms, but should work with any bed12 file.
