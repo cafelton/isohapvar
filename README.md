@@ -1,7 +1,7 @@
 # isohapvar (derived from FLAIR isoalleles)
 Take a haplotyped vcf and isoform bed and create a variant-aware isoform fasta
 
-Longshot and longcallR variant calling from long-read RNA-seq have been tested, but this should work with variants called from WGS as well.
+Longshot, longcallR, and Clair3 variant calling from long-read RNA-seq have been tested, but this should work with variants called from WGS as well.
 
 This has been tested using FLAIR isoforms, but should work with any bed12 file.
 ```
